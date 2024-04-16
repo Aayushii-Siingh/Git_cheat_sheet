@@ -1,9 +1,0 @@
-The git init command is the first command that you will run on Git.
-The git init command is used to create a new blank repository.
-It is used to make an existing project as a Git project.
-
-To create a blank repository, open command line on your desired directory and run the init command as follows:
-
-$ git init  
-
-
