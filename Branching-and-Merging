@@ -1,0 +1,50 @@
+'git branch' Command: Lists all branches in the repository.
+
+Branches allow you to work on different parts of a project without impacting the main branch.
+When the work is complete, a branch can be merged with the main project.
+
+You can even switch between branches and work on different projects without them interfering with each other.
+###############
+
+'git branch <branch_name>' Command: creates a new branch
+
+Example:
+git branch hello-world-images
+
+Now we created a new branch called "hello-world-images"
+
+Let's confirm that we have created a new branch:
+
+Example
+git branch
+  hello-world-images
+* master
+
+We can see the new branch with the name "hello-world-images", but the * beside master specifies that we are currently on that branch.
+
+####################################
+
+'git checkout <branch_name>' Command: Switches to the specified branch.
+
+checkout is the command used to check out a branch. Moving us from the current branch, to the one specified at the end of the command:
+
+Example
+git checkout hello-world-images
+Switched to branch 'hello-world-images'
+
+Now we have moved our current workspace from the master branch, to the new branch
+##################################
+
+'git merge <branch_name>' Command: Merges changes from one branch into the current branch.
+
+git merge is used to combine two branches. 
+
+a merge can be initiated by executing git merge ""  ,where ""  is the name of the branch that will be merged into the receiving branch.
+
+Example:
+
+git checkout main
+git merge hello-world-images
+
+############################
+

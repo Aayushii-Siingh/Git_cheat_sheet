@@ -1,0 +1,11 @@
+'git status' Command: Displays the status of the working directory.
+
+#################################
+
+git log: Shows the commit history.
+
+################################
+
+git diff: Shows changes between commits, branches, etc.
+
+###############################
