@@ -1,0 +1,34 @@
+
+
+1)Configuration:
+Git configuration is essential for customizing your Git environment. You can set options for a specific repository or globally for all repositories on your system.
+
+git config:
+
+Setting Configuration Options:
+git config --global user.name "Your Name": Sets the name associated with your commits globally.
+git config --global user.email "youremail@example.com": Sets the email associated with your commits globally.
+git config --global core.editor "editor": Sets the default text editor for Git (e.g., nano, vim, emacs).
+
+Viewing Configuration:
+git config --list: Lists all configuration settings.
+git config user.name: Shows the configured username.
+git config user.email: Shows the configured email.
+
+
+2)Submodules:
+Submodules are repositories nested within a parent repository. They allow you to include or embed external repositories within your main project.
+
+git submodule:
+
+Initializing Submodules:
+git submodule add <repository-url> <path>: Adds a new submodule to your project.
+git submodule init: Initializes submodules in your project.
+
+Updating Submodules:
+git submodule update: Updates the registered submodules to the commit specified in the parent repository.
+git submodule update --remote: Updates submodules to the latest commit on the branch specified in the submodule.
+
+Inspecting Submodules:
+git submodule status: Shows the status of submodules.
+git submodule summary: Summarizes changes between the submodule commits and the commits in the parent repository.i
