@@ -1,0 +1,11 @@
+'git fetch <remote>' Command: Fetches changes from a remote repository.
+
+####################################
+
+'git merge <remote>/<branch>' Command: Merges changes from a remote branch into the current branch.
+
+###################################
+
+'git pull' Command: Fetches changes from a remote repository and merges them into the current branch.
+
+##################################
