@@ -1,0 +1,8 @@
+1) git add <file>:
+
+This command adds changes in the specified file to the staging area. It prepares the changes to be included in the next commit.
+Example: git add index.html
+
+2) git commit -m "message":
+This command records the changes staged in the current branch's snapshot (also known as commit) along with a message describing the changes.
+Example: git commit -m "Added new feature to the homepage"

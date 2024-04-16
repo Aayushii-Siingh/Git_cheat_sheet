@@ -1,0 +1,43 @@
+
+Tagging in Git is used to mark specific points in the commit history of a repository. Tags are often used to denote significant milestones such as releases or version numbers. Here's an explanation of tagging in Git along with relevant commands:
+
+Tagging:
+
+1)git tag:
+This command lists all existing tags in the repository.
+
+2)git tag <tag_name>:
+This command creates a lightweight tag at the current HEAD (the latest commit). Lightweight tags are simply pointers to specific commits.
+Example:
+git tag v1.0
+
+3)git tag -a <tag_name> -m "tag message":
+This command creates an annotated tag with a message. Annotated tags store more information such as the tagger name, email, timestamp, and a message.
+Example:
+git tag -a v1.0 -m "Release version 1.0"
+
+4)git show <tag_name>:
+This command displays the details of the specified tag, including the commit it points to and the tag message.
+Example:
+git show v1.0
+
+5)git push origin <tag_name>:
+This command pushes the specified tag to the remote repository.
+Example:
+git push origin v1.0
+
+6)git push --tags:
+This command pushes all local tags to the remote repository.
+Example:
+git push --tags
+
+7)git tag -d <tag_name>:
+This command deletes the specified tag from the local repository.
+Example:
+git tag -d v1.0
+
+8)git push origin :<tag_name>:
+This command deletes the specified tag from the remote repository.
+Example:
+git push origin :v1.0
+

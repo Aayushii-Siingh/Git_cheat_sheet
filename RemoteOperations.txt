@@ -1,0 +1,17 @@
+
+1)git remote add <name> <url>:
+
+This command adds a new remote repository. It creates an alias for the remote URL under the given name.
+Example: git remote add origin https://github.com/user/repo.git
+
+2)git pull <remote> <branch>:
+
+This command fetches changes from the specified remote repository and merges them into the current branch.
+Example: git pull origin main
+
+
+3) git push <remote> <branch>:
+
+This command pushes the local commits of the current branch to the specified remote repository.
+Example: git push origin main
+
